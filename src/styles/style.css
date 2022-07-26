@@ -1,0 +1,140 @@
+:root{
+    /* access a variable -var(variable); */
+    
+    
+    /* Screens */
+    --tablet:768px;
+    --desktop:1024px;
+
+
+    /* Colors */
+
+    --color-h1: white;
+    --color-h2-hero: white;
+    --color-h2-subheading: black;
+    --color-h3-subheadings: #fdc318; 
+    /* //also for projects */
+
+    --color-h3-content: black;
+    --color-h5: white;
+    --color-h1: white;
+
+
+    
+
+
+    /* ICONS */
+    --color-icons:  #fdc318;
+/*  */
+
+    --color-body-text: black;
+/*     
+    --color-body-text: white;
+    --color-primary: blue;
+
+     */
+
+
+    /* Dimensions */
+
+    /* --dim-sm:4px;
+    --dim-md:8px;
+    --dim-lg:16px;
+     */
+    
+    /* font family */
+    
+    --font-family-primary:'Poppins', sans-serif ;
+    --font-family-secondary: 'Poppins', sans-serif;
+    
+    
+    /* Letter spacing
+    
+    --letter-spacing-h1:28px;
+    --letter-spacing-h2:28px;
+    --letter-spacing-body:18px;
+     */
+    
+    
+    /* Line Height
+    --line-height-h1:28px;
+    --line-height-h2:28px;
+    --line-height-body:18px;
+     */
+    }
+
+    .navbar-collapse{
+        display: flex;
+        justify-content:flex-end;
+    
+    }
+.nav-item{
+    margin-right: 20px;
+    
+}
+
+.nav-item a{
+    font-size: 16px;
+    font-family: --var(--font-family-primary);
+    font-weight: 600;
+    /* font-family: sans-serif; */
+  
+}
+.nav-link{
+    color: white;
+}
+   
+.brandNmae{
+    font-size: 30px;
+    margin-left: 70px;
+    font-weight: bold;
+    font-family: --var(--font-family-primary);
+}
+.brandNmae a{
+color: #fdc318;
+}
+.navbar-toggler{
+
+    background-color: white;
+}
+
+
+ ------------------------------/* HERO SECTION  */---------------------------
+
+.hero{
+    display: flex;
+}
+.hero{
+    background-image: url('/build/images/6png.png');
+    background-size: cover;
+    background-position: inherit;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+    
+.jumbotron{
+ 
+    display: flex;
+    width: 70%;
+    margin: auto;
+    position: relative;
+    top: 15%;
+    background-color: transparent;
+}
+.J_heading{
+    font-size: 70px;
+    font-family: --var(--font-family-primary);
+    color: white;
+    font-weight: bolder;
+
+}
+.j_subheading{
+    font-size: 40px;
+    font-family: --var(--font-family-primary);
+    color: #fdc318;
+
+    font-weight: bolder;
+}
+    
+
