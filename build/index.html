@@ -31,7 +31,7 @@
 
 
     <section class="hero">
-      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent" id="nav-Bar">
         <h2 class="brandNmae"> <a class="" href="#">Elisha..</a> </h2>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -80,7 +80,7 @@
       <!-- JUMBOTRON -->
 
       <div class="jumbotron ">
-        <div class="container text-center">
+        <div class="container text-center bannerHaeadings">
           <h1 class="J_heading h1_heading">I am Elisha George</h1>
           <h3 class="j_subheading h3_heading ">
             <span class="auto-type"> Web Developer</span>
@@ -141,10 +141,10 @@
           </div>
 
 
-          <div class="row">
+          <div class="row aboutContent">
 
             <div class="col-md-5">
-              <img src="images/me.jpg" alt="">
+              <img src="images/me.jpg" class="mePic" alt="">
             </div>
             <div class="col-md-7">
 
@@ -154,36 +154,158 @@
               </p>
             </div>
 
-            </div>
-          </div>
-
-
-
-
-
-
-          </div>
-             
-      
-          
 
             
+            <div class="row row-educarion-skills">
 
-        </section>
+              <!-- EDUCATION STARTS -->
+
+            <div class="col-md-6 left_education">
+              <h3 class="head_education">
+                Education
+              </h3>
+
+              <ul class="ul_Education">
+                <li>
+                  <h4 class="education">Primary School</h4>
+                  <span class="schools">MLW</span> <span class="years">2014 - 2016</span>
+                </li>
+                <li>
+                  <h4 class="education">High School</h4>
+                  <span class="schools">St.Patrick</span> <span class="years">2016 - 2018</span>
+                </li>
+                <li>
+                  <h4 class="education">Graduation</h4>
+                  <span class="schools">MAJU</span> <span class="years">2019 - 2023</span>
+                </li>
+              </ul>
+
+              <!-- EDUCATION ENDS -->
+            </div>
 
 
 
-        <!-================================================ ABOUT (BIO DATA) SECTION
-          ENDS=================================================-->
+
+              <!-- SKILLS STARTS -->
+
+            <div class="col-md-6 right_skills">
+              <h3 class="head_experience">
+                Skills
+              </h3>
+
+              <div class="classFix">
+                <span class="skillTitle">HTML & CSS3</span>
+                <span class="skill-bar-percentage">85%</span>
+
+                <div class="skill-bar" data-percent="95%">
+                  <div class="skillbar-bar" id="skillPercent-1"></div>
+                </div>
+
+              </div>
+              <div class="classFix">
+                <span class="skillTitle">BOOTSTRAP</span>
+                <span class="skill-bar-percentage">80%</span>
+
+                <div class="skill-bar" data-percent="70%">
+                  <div class="skillbar-bar" id="skillPercent-2"></div>
+                </div>
+              </div>
+              <div class="classFix">
+                <span class="skillTitle">JAVASCRIPT</span>
+                <span class="skill-bar-percentage">40%</span>
+
+                <div class="skill-bar" data-percent="40%">
+                  <div class="skillbar-bar"id="skillPercent-3" ></div>
+                </div>
+              </div>
+              <div class="classFix">
+                <span class="skillTitle">SQL</span>
+                <span class="skill-bar-percentage">80%</span>
+
+                <div class="skill-bar" data-percent="98%">
+                  <div class="skillbar-bar" id="skillPercent-4"></div>
+                </div>
+              </div>
+
+
+
+            </div>
+            </div>
+      
+              <!-- SKILLS ENDS -->
+
+            </div>
+          </div>
+          </div>
+      </section>
+
+
+
+        <!-================================================ 
+        ABOUT (BIO DATA) SECTION ENDS
+        =================================================-->
 
 
 
 
-          <script src="../src/scripts/app.js"></script>
+          <!-- ================================================
+                              FACTS START 
+            ==================================================-->
 
+
+            <section>
+              <div class="funfacts">
+
+                <div class="keyboard">
+                   <i class='fa fa-keyboard-o'></i>
+                   <span class="facts_description">Developer</span>
+                </div>
+
+                <div class="project">
+                  <h3>10+</h2>
+                    <span class="facts_description">Projects</span>
+               </div>
+
+               <div class="award">
+                <h3 class="facts_description">3+</h3>
+                <span class="facts_description">Awards</span>
+             </div>
+
+             <div class="freelancer">
+              <i class='fa fa-briefcase'></i>
+              <span class="facts_description">Freelancer</span>
+           </div>
+
+              </div>
+            </section>
+
+
+
+
+          <!-- ================================================
+                              FACTS END 
+            ==================================================-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            <script src="../src/scripts/app.js"></script>
           <!-- Typed Js -->
 
           <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
 
 
           <script>
@@ -198,9 +320,7 @@
           </script>
 
 
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+          
 </body>
 
 </html>
