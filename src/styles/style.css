@@ -486,3 +486,111 @@ li{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: var(--para);
 }
+
+/* ------------------------SERVICES CSS ------------------------- */
+.row_about{
+    margin-top: 40px;
+}
+.about h2{
+    font-size: 5rem;
+    color: var(--color-h2);
+    font-weight: bolder;
+}
+.about h3{
+    font-size: 2.5rem;
+    margin-top: -15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    font-weight: lighter;
+}
+
+
+.fa-serivice{
+    color:var(--color-icons);
+}
+.fa-database{
+    font-size: 5rem;
+}
+.fa-laptop{
+    font-size: 6rem;
+
+}
+.fa-desktop{
+    font-size: 5rem;
+}
+
+.icon_service{
+    margin-bottom: 20px;
+}
+
+.service h3{
+    margin-bottom: 20px;
+    font-size: 2rem;
+
+}
+.services_row_1{
+
+    margin-top: 70px;
+    
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    align-items: center;
+}
+.service_2{
+    margin-top: -11px;
+}
+.service_container{
+    margin-bottom: 12rem;
+}
+
+
+/* ---------------------------------WORK BANNER----------------------------- */
+
+.work_banner_background{
+    background-image: url('/build/images/work_banner.jpg');
+    height: 30rem;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.work_content h4 ,h1{
+    color: var(--color-h1);
+    word-wrap: break-word;
+}
+.work_banner_background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bannerButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.work_content h4{
+
+    font-size: 2.2rem;
+}
+
+.work_content h1{
+
+    font-size: 4.6rem;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+.btn-work{
+    width: 16rem;
+    height: 5rem;
+    border-radius: 100px;
+    font-size: 2rem;
+    color: white;
+    background-color: var(--color-icons);
+}
