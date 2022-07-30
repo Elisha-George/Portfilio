@@ -508,7 +508,7 @@ li{
 .fa-serivice{
     color:var(--color-icons);
 }
-.fa-database{
+.fa-php{
     font-size: 5rem;
 }
 .fa-laptop{
@@ -632,7 +632,7 @@ li{
 
 .sec_price{
 
-    background-color: rgb(228, 224, 224);
+    background-color: rgb(238, 229, 229);
     padding-top: 30px;
 }
 
@@ -650,6 +650,105 @@ li{
     font-weight: 900;
 }
 .price_tagline h3{
+    font-size: 2.5rem;
+    margin-top: -5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    font-weight: lighter;
+}
+
+.plan_main_body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 29rem;
+}
+
+.plan_top{
+    height: 5rem;
+    width: 100%;
+    background-color: var(--color-icons);
+}
+.plan_top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.plan_top h2{
+    color: white;
+
+}
+.price{
+    width: 100%;
+    height: 17rem;
+    background-color: rgb(214, 208, 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.price h1 {
+    font-size: 6rem;
+    color: black;
+}
+.info{
+    /* padding-top: 30px; */
+    width: 100%;
+    height: 34rem;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+.cont_pricing{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.btn-price{
+    width: 16rem;
+    height: 4rem;
+    border-radius: 100px;
+    font-size: 2rem;
+    color: white;
+    background-color: var(--color-icons);
+}
+.row_Price_divs{
+    margin-bottom: 100px;
+}
+
+.info{
+
+
+    /* BOX SHADOW : x axis, y axis, blur, spread, color  */
+
+    
+
+}
+
+/* -----------------------------CONTACT ---------------------------------- */
+.row_head_contact{
+    margin-top: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30PX;
+}
+.Contact_tagline h2{
+    font-size: 5rem;
+    color: var(--color-h2);
+    font-weight: 900;
+}
+.Contact_tagline h3{
     font-size: 2.5rem;
     margin-top: -5px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
