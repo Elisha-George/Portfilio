@@ -755,3 +755,90 @@ flex-wrap: wrap;
 
     font-weight: lighter;
 }
+
+.contact_icons i{
+    
+    font-size: 5rem;
+}
+
+
+.row_contact_form{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.col_contat_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-basis: 35rem;
+    height: 15rem;
+    flex-wrap: wrap;
+    
+
+    box-shadow: rgb(157, 156, 156) 5px 6px 22px -10px;
+
+    margin-bottom: 30px;
+    border-radius: 0.8rem;
+}
+
+.row_upper_fields{
+    margin-top: 20px;
+}
+.upper_form{
+
+    height: 4.5rem;
+    /* width: rem; */
+    border-radius: 0.6rem;
+    
+    }
+
+  
+    .form-control{
+        font-size: 13px;
+    }
+
+.lower_text_area{
+    width: 100rem;
+}
+
+.contact_form_fileds{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+    box-shadow: rgb(157, 156, 156) 5px 6px 22px -10px;
+    margin-bottom: 30px;
+    border-radius: 0.8rem;
+
+}
+
+.col_textarea{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.form_textarea{
+    width: 80rem;
+    border-radius: 0.6rem;
+    margin-bottom: 20px;
+    
+}
+/* REMEMBER TO ADD TOOS AND LANGUAGES SECTION */
+
+
+/* ========================================================= */
+/* use FLEX GRO in childs of col_contat_form in media query */
+/* ========================================================= */
+
+
+/* ------------------------------------MAP CSS--------------------------------- */
+
+.map-container-google-2{
+    height: 200px;
+}
