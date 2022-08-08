@@ -623,7 +623,7 @@ li{
 .project_img img{
     width: 350px;
     height: 230px;
-    border: 2px solid black;
+    /* border: 2px solid black;  */
     box-shadow: 3px 3px 6px 1px #a7a2a2;
 }
 
